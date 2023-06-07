@@ -38,15 +38,3 @@ int mergeSort(long long* arr,int s,int e,int n){
     cnt+=mergeSortedArray(arr,s,e);
     return cnt;
 }
-
-int main()
-{
-fast;
-long long arr[]={1,2,3,4,5,6,7,8,9};
-int res=mergeSort(arr,0,8,9);
-for(int i=0;i<9;i++){
-    cout<<arr[i]<<" ";
-}cout<<endl;
-cout<<res<<endl;
-return 0;
-}
