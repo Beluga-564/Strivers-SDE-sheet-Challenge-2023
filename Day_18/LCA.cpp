@@ -37,6 +37,6 @@ TreeNode<int>* solve(TreeNode<int>* root, int x, int y){
 }
 int lowestCommonAncestor(TreeNode<int> *root, int x, int y)
 {
-	TreeNode<int>* res = solve(root, x, y);
+    TreeNode<int>* res = solve(root, x, y);
     return res?res->data:-1;
 }
